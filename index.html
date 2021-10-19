@@ -15,10 +15,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
+<div class="container">
+	<div class="row">
+		<nav class="col-sm-3" id="myScrollspy">
+			<ul class="nav nav-pills nav-stacked">
+				<li><a href="#section1">Section 1</a></li>
+				...
+			</ul>
+		</nav>
+		<div class="col-sm-9">
+			<div id="section1">
+				<h1>Section 1</h1>
+				<p>Try to scroll this page and look at the navigation list while scrolling!</p>
+			</div>
+			...
+		</div>
+	</div>
+</div>
 
+</body>
 
+	<div class="container">
+		<div class="col-6 bg-primary h5">Hej </div>
+		<div class="col-6 bg-white h5">Hej</div>
+	</div>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
