@@ -28,7 +28,9 @@ img {
 	height: auto;
 }
 
-
+$primary: #FFCE00;
+$dark: #171717;
+$light: #F3F3F3;
 body {
 	margin: 0;
 	padding: 0;
@@ -38,7 +40,7 @@ body {
 	font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
-#art {
+.art {
 	background-image: url("img/6b67cb51de9bc493910cb629803e98d7.jpg");
 }
 main {
