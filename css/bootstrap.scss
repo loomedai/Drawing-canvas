@@ -14,8 +14,15 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #007bff
+        "primary": #FFCE00,
+        "dark":#171717,
+        "Light": #F3F3F3;
+
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+$primary: #FFCE00;
+$dark: #171717;
+$light: #F3F3F3;
 @import "../node_modules/bootstrap/scss/bootstrap";
+
