@@ -16,14 +16,14 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #FFCE00,
+        "primary":#7B68EE,
         "dark":#171717,
         "Light": #F3F3F3,
 
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-$primary: #FFCE00;
+$primary: #7B68EE;
 $dark: #171717;
 $light: #F3F3F3;
 
