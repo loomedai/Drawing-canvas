@@ -1,9 +1,9 @@
 <?php
 require "classes/classDB.php";
 
-define("CONFIG_LIVE", "0"); // 0: Test enviroment || 1: Live enviroment
+define("CONFIG_LIVE", "1"); // 0: Test enviroment || 1: Live enviroment
 
-if(CONFIG_LIVE == 0){
+if(CONFIG_LIVE == 1){
     $DB_SERVER = "localhost";
     $DB_NAME = "test";
     $DB_USER = "root";
